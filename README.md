@@ -32,7 +32,7 @@ SQLMAP ULTIME GUI ULTIME est une interface graphique complète pour sqlmap avec 
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/votre-compte/sqlmap-gui-ultime.git
+https://github.com/ronnymboumba1-maker/Sqlmap-Gui
 cd sqlmap-gui-ultime
 
 # 2. Créer un environnement virtuel
