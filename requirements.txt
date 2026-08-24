@@ -1,0 +1,10 @@
+# SQLMAP ULTIME GUI ULTIME - Dépendances
+
+# Interface graphique
+PySide6>=6.5.0
+
+# Utilitaires
+colorama>=0.4.6
+
+# Pour les requêtes HTTP (optionnel)
+requests>=2.31.0
