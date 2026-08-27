@@ -1,6 +1,4 @@
-README.md
 
-```markdown
 # 🔍 SQLMAP ULTIME GUI ULTIME
 
 ## Interface graphique professionnelle avec toutes les injections avancées
