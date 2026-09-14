@@ -26,24 +26,21 @@ SQLMAP ULTIME GUI ULTIME est une interface graphique complète pour sqlmap avec 
 - ✅ **Case Variation** : UnIoN
 - ✅ **Fragmentation** : UN/**/ION
 
-### 🚀 Installation
+### # Clone / cd dans le dossier
+cd ~/Programs/Burp_like
 
-```bash
-# 1. Cloner le dépôt
-https://github.com/ronnymboumba1-maker/Sqlmap-Gui
-cd sqlmap-gui-ultime
+# Créer venv + activer
+python3 -m venv venv && source venv/bin/activate
 
-# 2. Créer un environnement virtuel
-python -m venv venv
-source venv/bin/activate
-
-# 3. Installer les dépendances
+# Upgrade pip + installer
+pip install --upgrade pip
 pip install -r requirements.txt
 
-# 4. Installer sqlmap
-sudo apt install sqlmap  # Linux
-# ou
-pip install sqlmap
+# Installer sqlmap (système)
+sudo apt install -y sqlmap
+
+# Lancer
+python3 sqlmap_gui.py
 ```
 
 🎯 Utilisation
