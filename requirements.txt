@@ -1,10 +1,14 @@
-# SQLMAP ULTIME GUI ULTIME - Dépendances
+# Développement
+-r requirements.txt
 
-# Interface graphique
-PySide6>=6.5.0
+# Tests
+pytest>=8.0.0
+pytest-qt>=4.4.0        # pour tester les UI PySide6
 
-# Utilitaires
-colorama>=0.4.6
+# Linting / formatage
+ruff>=0.4.0
+black>=24.0.0
+mypy>=1.8.0
 
-# Pour les requêtes HTTP (optionnel)
-requests>=2.31.0
+# Packaging
+pyinstaller>=6.5.0      # pour créer un exécutable
